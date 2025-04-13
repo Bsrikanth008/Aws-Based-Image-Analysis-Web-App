@@ -1,0 +1,7 @@
+### Architecture Overview
+
+This architecture represents a web-based image analysis application built using AWS services.
+Users upload images through a PHP web interface, which are then sent to **AWS Lambda** for backend processing.
+The Lambda function uses **Amazon Rekognition** to analyze the image and return results to the frontend.
+All processing is serverless, secure, and scalable.
+
